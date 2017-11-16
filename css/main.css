@@ -1,0 +1,14 @@
+/* CSS Document */
+
+.theme {
+	background-color: #94090D;
+}
+
+#officers {
+	background-color: #790016;
+}
+
+.divider {
+	height: 7vh;
+	min-height: 60px;
+}
