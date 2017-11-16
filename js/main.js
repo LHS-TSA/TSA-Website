@@ -20,13 +20,121 @@ var template =
   "</div>" +
   "</div>";
 
-var members = [
-  { name:"Stephen DuVall", position:"Reporter - Webmaster", quote:"I probably didn't turn it in", img:"blank_img2.svg" },
-  { name:"Skylar Mack", position:"Member", quote:"It's not my fault...", img:"blank_img.svg" },
-  { name:"Weston Allred", position:"VEX Team Captian", quote:"I saw this thing on the VEX Forum", img:"blank_img2.svg"},
-  { name:"Jacob", position:"President -_-", quote:"...", img:"blank_img.svg"},
-  { name:"Riley Dunn", position:"Member - Cheerleader", quote:"Goodbye Coach Tompkins!!!", img:"blank_img2.svg"},
+var officers = [
+  {
+    name: "Jacob  Smith",
+    position: "President",
+    projects: "Flight endurance, Structural design, Video game design",
+    quote: "If life gives you lemons make life take the lemons back.",
+    img: "blank_img.svg"
+  },
+  {
+    name: "Debora Park",
+    position: "Secraty",
+    projects: "Music Production, Flight Endurance",
+    quote: "I'm blind.",
+    img: "blank_img.svg"
+  },
+  {
+    name: "Devon Loy",
+    position: "Vice President",
+    projects: "Dragster Design, Video Game Design, Debate",
+    quote: "For every fixed syntax error, there are always ten more.",
+    img: "blank_img.svg"
+  },
+  {
+    name: "Stephen DuVall",
+    position: "Reporter - Webmaster",
+    projects: "Webmaster, Software Dev, VEX Robotics",
+    quote: "I probably didn't turn it in",
+    img: "blank_img.svg"
+  }
 ];
+
+var members = [
+  {
+    name: "Weston Allred",
+    projects: "VEX VEX Robotics, Engineering design",
+    quote: "I found this cool thing on the VEX forum"
+  },
+  {
+    name: "Riley Dunn",
+    projects: "fashion design",
+    quote: "This is my club"
+  },
+  {
+    name: "Josie Haulk",
+    projects: "Future Tech Teacher",
+    quote: "I'm a little late."
+  },
+  {
+    name: "Alex Stone",
+    projects: "Transportation Modeling",
+    quote: "Hi Skylar"
+  },
+  {
+    name: "Peter Phan",
+    projects: null,
+    quote: "I'm tired."
+  },
+  {
+    name: "Maxwell Turcotte",
+    projects: "VEX Robotics, Flight Endurance, Coding",
+    quote: "I don't heckin' know"
+  },
+  {
+    name: "Jeremy Mullis",
+    projects: "VEX Robotics, Flight Endurance",
+    quote: "oof"
+  },
+  {
+    name: "Athni Tesfaye",
+    projects: "VEX VEX Robotics, Digital Video Production",
+    quote: "My legs are sore"
+  },
+  {
+    name: "Scott Askew",
+    projects: "Flight Endurance",
+    quote: "To the future, the past, and everything in between!"
+  },
+  {
+    name: "Skylar Mack",
+    projects: "Structural",
+    quote: "Hi Alex"
+  },
+  {
+    name: "Kevin Pietruszka",
+    projects: "VEX Robotics",
+    quote: "It's all Riley's fault and Skylar is most definitely wrong!"
+  },
+  {
+    name: "Averi Allred",
+    projects: "Architectural Design",
+    quote: "Yeah, but that's not good enough."
+  },
+  {
+    name: "Joshua D. Seidenberger",
+    projects: "Future Technology Teacher, Technology Problem Solving",
+    quote: "You don't need a license to drive a sandwich."
+  },
+  {
+    name: "Spencer Burch",
+    projects: "Transportation Modeling, Video Production ",
+    quote: "What do I desire?",
+  },
+  {
+    name: "William Greene",
+    projects: "Video Production",
+    quote: "Get it together guys."
+  },
+  {
+    name: "Ben Smith",
+    projects: "Music Production",
+    quote: "Is Mayonnaise an instrument?"
+  }
+];
+
+var alumni = [];
 
 $(document).ready(function() {
   for (var i = 0; i < officers.length; i++) {
