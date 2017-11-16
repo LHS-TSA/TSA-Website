@@ -8,16 +8,17 @@ function generateCards(person, place) {
   $(place).append(master);
 }
 
-var template = '<div id="template" class="col-md-4 col-sm-12 my-3">' +
-'<div class="card">' +
-'<img class="card-img-top p-3" src="">' +
-'<div class="card-body p-3">' +
-'<h4 class="card-title"></h4>' +
-'<h5 class="card-subtitle"></h5>' + 
-'<p class="card-text"></p>' +
-'</div>' +
-'</div>' +
-'</div>';
+var template =
+  '<div id="template" class="col-md-3 col-sm-10 my-3">' +
+  '<div class="card">' +
+  '<img class="card-img-top p-3" src="">' +
+  '<div class="card-body p-3">' +
+  '<h4 class="card-title"></h4>' +
+  '<h5 class="card-subtitle"></h5>' +
+  '<p class="card-text"></p>' +
+  "</div>" +
+  "</div>" +
+  "</div>";
 
 var members = [
   { name:"Stephen DuVall", position:"Reporter - Webmaster", quote:"I probably didn't turn it in", img:"blank_img2.svg" },
