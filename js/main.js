@@ -1,12 +1,11 @@
 // JavaScript Document
-function generateMembers(person) {
+function generateCards(person, place) {
   var master = $(template);
   master.find(".card-img-top").attr("src", "img/" + person.img);
   master.find(".card-title").text(person.name);
   master.find(".card-subtitle").text(person.position);
   master.find(".card-text").text('"' + person.quote + '"');
-  $("#members").append(master);
-
+  $(place).append(master);
 }
 
 var template = '<div id="template" class="col-md-4 col-sm-12 my-3">' +
@@ -29,8 +28,13 @@ var members = [
 ];
 
 $(document).ready(function() {
-  for(var i = 0; i < members.length; i++) {
-    generateMembers(members[i]);
-    console.log(members[i].name);
+  for (var i = 0; i < officers.length; i++) {
+    generateCards(officers[i], "#officers");
+  }
+  for (var j = 0; j < members.length; j++) {
+    generateCards(members[j], "#members");
+  }
+  for (var k = 0; k < alumni.length; k++) {
+    generateCards(alumni[k], "#alumni");
   }
 });
