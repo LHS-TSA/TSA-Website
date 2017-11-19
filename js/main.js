@@ -23,16 +23,11 @@ function generateCards(person, place) {
   }
 }
 
-var alumni = [];
-
 $(document).ready(function() {
   for (var i = 0; i < officers.length; i++) {
     generateCards(officers[i], "#officers");
   }
   for (var j = 0; j < members.length; j++) {
     generateCards(members[j], "#members");
-  }
-  for (var k = 0; k < alumni.length; k++) {
-    generateCards(alumni[k], "#alumni");
   }
 });
