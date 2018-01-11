@@ -3,9 +3,12 @@ body {
   background-color: #edecf4;
 }
 
-
 .theme {
 	background-color: #94090D;
+}
+
+::-webkit-scrollbar { 
+	display: none; 
 }
 
 .divider {
