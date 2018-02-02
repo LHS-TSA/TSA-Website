@@ -1,7 +1,30 @@
 /* CSS Document */
 body {
-  background-color: #edecf4;
+	background-color: #edecf4;
 }
+
+/* Parallax Styling */
+
+.row {
+	min-height: 100vh;
+}
+.tsa-intro {
+	min-height: 100vh;
+	padding-bottom: 2.5vh;
+}
+
+.tsa-fullpage{
+	min-height: 100vh;
+}
+
+.tsa-parallax {
+	height: 100%;
+	width: 100%;
+	background: transparent;
+}
+
+
+/* Default Theme Styles */
 
 .theme {
 	background-color: #94090D;
