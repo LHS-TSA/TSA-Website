@@ -78,6 +78,11 @@ var members = [
     name: "Ben Smith",
     projects: "Music Production",
     quote: "Is Mayonnaise an instrument?"
+  },
+  {
+    name: "Bayden Woody",
+    projects: null,
+    quote: "H"
   }
 ];
 
