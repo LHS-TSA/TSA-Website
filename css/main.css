@@ -5,9 +5,6 @@ body {
 
 /* Parallax Styling */
 
-.row {
-	min-height: 100vh;
-}
 .tsa-intro {
 	min-height: 100vh;
 	padding-bottom: 2.5vh;
