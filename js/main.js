@@ -3,16 +3,16 @@ function generateCards(group, place) {
   switch (place) {
     case "#officers":
       var template =
-          '<div class="col-md-3 col-sm-10 my-3">' +
-          '<div class="card">' +
-          '<img class="card-img-top p-3" src="">' +
-          '<div class="card-body p-3">' +
-          '<h5 class="card-subtitle"></h5>' +
-          '<h4 class="card-title"></h4>' +
-          '<p class="card-text my-1"></p>' +
-          "</div>" +
-          "</div>" +
-          "</div>";
+        '<div class="col-md-3 col-sm-10 my-3">' +
+        '<div class="card">' +
+        '<img class="card-img-top p-3" src="">' +
+        '<div class="card-body p-3">' +
+        '<h5 class="card-subtitle"></h5>' +
+        '<h4 class="card-title"></h4>' +
+        '<p class="card-text my-1"></p>' +
+        "</div>" +
+        "</div>" +
+        "</div>";
 
       var master = $(template);
       master.find(".card-img-top").attr("src", "img/" + group.img);
@@ -24,13 +24,13 @@ function generateCards(group, place) {
 
     case "#members":
       var template =
-          '<div class="card">' +
-          '<div class="card-body p-3">' +
-          '<h4 class="card-title"></h4>' +
-          '<h5 class="card-subtitle"></h5>' +
-          '<p class="card-text my-1"></p>' +
-          "</div>" +
-          "</div>";
+        '<div class="card">' +
+        '<div class="card-body p-3">' +
+        '<h4 class="card-title"></h4>' +
+        '<h5 class="card-subtitle"></h5>' +
+        '<p class="card-text my-1"></p>' +
+        "</div>" +
+        "</div>";
 
       var master = $(template);
       master.find(".card-title").text(group.name);
