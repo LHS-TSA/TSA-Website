@@ -41,11 +41,34 @@ function generateCards(group, place) {
   }
 }
 
+function generatePosts(source, place) {
+  var template =
+    '<div class="col-md-6 col-sm-10 my-3">' +
+    '<div class="card">' +
+    '<img class="card-img-top" src="">' +
+    '<div class="card-body p-3">' +
+    '<h4 class="card-title"></h4>' +
+    '<h5 class="card-subtitle"></h5>' +
+    '<p class="card-text my-1"></p>' +
+    "</div>" +
+    "</div>" +
+    "</div>";
+  var master = $(template);
+  master.find(".card-img-top").attr("src", "img/" + source.img);
+  master.find(".card-title").text(source.title);
+  master.find(".card-subtitle").text(source.date + " - " + source.source);
+  master.find(".card-text").text(source.body);
+  $(place).append(master);
+}
+
 $(document).ready(function() {
   for (var i = 0; i < officers.length; i++) {
     generateCards(officers[i], "#officers");
   }
   for (var j = 0; j < members.length; j++) {
     generateCards(members[j], "#members");
+  }
+  for (var k = 0; k < posts.length; k++) {
+    generatePosts(posts[k], "#posts");
   }
 });
