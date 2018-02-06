@@ -22,8 +22,9 @@
 	    <![endif]-->
 </head>
 <!-- https://material.io/color/#!/?view.left=0&view.right=1&primary.color=eeedf4 off white color that looks so nice -->
+
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
-  <nav class="navbar navbar-expand-lg navbar-dark theme fixed-top" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <a class="navbar-brand" href="https://lhstsa.org">LHS TSA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     	<span class="navbar-toggler-icon"></span>
@@ -38,20 +39,27 @@
       </ul>
     </div>
   </nav>
-  
-  <div class="tsa-parallax parallax-window" data-parallax="scroll" data-image-src="img/IMG_9326.jpg">
+
+  <div class="tsa-parallax" data-parallax="scroll" data-image-src="img/IMG_9326.jpg">
     <div class="container tsa-fullpage">
-      <div id="about" class="row text-center align-items-end tsa-intro">
+      <div id="" class="row text-center align-items-end tsa-intro">
         <div class="col-md-12">
-          <h1>LHS TSA</h1>
+          <h1 class="title">LHS TSA</h1>
+          <a href="#officers" class="title"><i class="fas fa-angle-down"></i></a>
         </div>
       </div>
     </div>
   </div>
-  
-  <p>Welcome to Loganville TSA. We actively compete in STEM competitions all across Georgia. Each week, in our meetings, we work towards our goal of learning to lead in a technical world.</p>
+
+  <div id="about" class="divider"></div>
+
   <div class="container">
-    <div id="officers" class="row"></div>
+    <div id="about" class="row">
+      <div class="col-md-12">
+        <p>Welcome to Loganville TSA. We actively compete in STEM competitions all across Georgia. Each week, in our meetings, we work towards our goal of learning to lead in a technical world.</p>
+      </div>
+    </div>
+  </div>
     <div id="members" class="card-columns"></div>
   </div>
 
