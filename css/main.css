@@ -57,3 +57,38 @@ a:hover {
 #about>div>p {
   font-size: 1.75em;
 }
+
+
+/* Footer Stylinings */
+#footer {
+  min-height: 35vh;
+  background-color: #002171;
+  color: #eeedf4;
+}
+
+
+/*/
+/*--Footer Designs--
+/*/
+#resources>a {
+  color: eeedf4;
+  text-decoration: none;
+}
+#resources>h4 {
+	text-align: center;
+}
+/* Footer list */
+.footer-list{
+	text-align: center;
+	list-style: none;
+	text-indent: 0%;
+	padding-left: 0;
+}
+.footer-link {
+	color: #edecf4;
+	text-decoration: none;
+}
+.footer-link:hover {
+	color: #94090D;
+	text-decoration: none;
+}
