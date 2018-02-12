@@ -9,3 +9,6 @@ out
 gen
 
 img/Thumbs\.db
+.DS_Store
+css/.DS_Store
+js/.DS_Store
