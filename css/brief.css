@@ -1,0 +1,39 @@
+/*/
+/*  Design Brief Styles
+/*/
+
+#content {
+  min-height: 100vh;
+  text-align: right;
+}
+
+a:visited {
+  text-decoration: none;
+}
+  
+a:hover {
+  color: #bcbbc1;
+}
+  
+.title {
+  font-size: 8.75em;
+  color: #eeedf4;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 33%;
+  font-family: pragmatica, sans-serif;
+  font-weight: 900;
+}
+
+.navbar {
+    background-color: #28b5f4;
+    color: #000000;
+}
+
+#footer {
+  background-color: #0085c1;
+}
+
+.about {
+  padding-right: 10vw;
+}
