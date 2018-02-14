@@ -1,7 +1,7 @@
 // JavaScript Document
 function generateCards(group, place) {
   switch (place) {
-    case "#officers-cards":
+    case "#officer-cards":
       var template =
         '<div class="col-md-3 col-sm-10 my-3">' +
         '<div class="card">' +
@@ -22,7 +22,7 @@ function generateCards(group, place) {
       $(place).append(master);
       break;
 
-    case "#members":
+    case "#member-card":
       var template =
         '<div class="card">' +
         '<div class="card-body p-3">' +
@@ -63,10 +63,10 @@ function generatePosts(source, place) {
 
 $(document).ready(function() {
   for (var i = 0; i < officers.length; i++) {
-    generateCards(officers[i], "#officers-cards");
+    generateCards(officers[i], "#officer-cards");
   }
   for (var j = 0; j < members.length; j++) {
-    generateCards(members[j], "#members");
+    generateCards(members[j], "#member-card");
   }
   for (var k = 0; k < posts.length; k++) {
     generatePosts(posts[k], "#posts");
