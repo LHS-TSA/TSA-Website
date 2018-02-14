@@ -3,8 +3,16 @@ body {
 	background-color: #edecf4;
 }
 
-/* Parallax Styling */
+::-webkit-scrollbar { 
+	display: none; 
+}
 
+.divider {
+	height: 7vh;
+	min-height: 60px;
+}
+
+/* Parallax Styling */
 .tsa-intro {
 	min-height: 100vh;
 	padding-bottom: 2.5vh;
@@ -21,17 +29,31 @@ body {
 }
 
 
-/* Default Theme Styles */
+/* Custom Theme Styles */
+a:visited {
+  text-decoration: none;`
+}
 
-.theme {
+a:hover {
+  color: #bcbbc1;
+}
+
+.title {
+  font-size: 8.75em;
+  color: #eeedf4;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 33%;
+  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
 	background-color: #94090D;
 }
 
-::-webkit-scrollbar { 
-	display: none; 
-}
-
-.divider {
-	height: 7vh;
-	min-height: 60px;
+#about>div>p {
+/*   font-family: 'Roboto', sans-serif; */
+/*   font-weight: medium; */
+  font-size: 1.75em;
 }

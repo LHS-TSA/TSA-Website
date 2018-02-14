@@ -13,7 +13,9 @@
 
   <!--My CSS-->
   <link href="css/main.css" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -23,7 +25,7 @@
 </head>
 <!-- https://material.io/color/#!/?view.left=0&view.right=1&primary.color=eeedf4 off white color that looks so nice -->
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
-  <nav class="navbar navbar-expand-lg navbar-dark theme fixed-top" id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <a class="navbar-brand" href="https://lhstsa.org">LHS TSA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     	<span class="navbar-toggler-icon"></span>
@@ -39,24 +41,39 @@
     </div>
   </nav>
   
-  <div class="tsa-parallax parallax-window" data-parallax="scroll" data-image-src="img/IMG_9326.jpg">
+  <div class="tsa-parallax" data-parallax="scroll" data-image-src="img/IMG_9326.jpg">
     <div class="container tsa-fullpage">
-      <div id="about" class="row text-center align-items-end tsa-intro">
+      <div id="" class="row text-center align-items-end tsa-intro">
         <div class="col-md-12">
-          <h1>LHS TSA</h1>
+          <h1 class="title">LHS TSA</h1>
+          <a href="#officers" class="title"><i class="far fa-angle-down"></i></a>
         </div>
       </div>
     </div>
   </div>
   
-  <p>Welcome to Loganville TSA. We actively compete in STEM competitions all across Georgia. Each week, in our meetings, we work towards our goal of learning to lead in a technical world.</p>
+  <div id="about" class="divider"></div>
+  
+  <div class="container">
+    <div id="about" class="row">
+      <div class="col-md-12">
+        <p>
+          Welcome to Loganville TSA. We actively compete in STEM competitions all across Georgia. 
+          Each week, in our meetings, we work towards our goal of learning to lead in a technical world. 
+          Our club consists of 23 active members, 1 advisor, and 3 alumni. 
+        </p>    
+      </div>
+    </div>
+  </div>
+  
   <div class="container">
     <div id="officers" class="row"></div>
     <div id="members" class="card-columns"></div>
   </div>
 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js" integrity="sha256-Jhqqct9kdspgS5FC1W1f/cBOkdDoWMV3eWhU14cqzoY=" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js" integrity="sha256-Jhqqct9kdspgS5FC1W1f/cBOkdDoWMV3eWhU14cqzoY=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="js/members.js"></script>
