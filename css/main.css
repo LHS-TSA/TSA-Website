@@ -69,6 +69,7 @@ p.card-text {
 /*  Footer Designs
 /*/
 #footer {
+	padding: 0 13% 0 13%;
   min-height: 15vh;
   background-color: #002171;
   color: #eeedf4;
