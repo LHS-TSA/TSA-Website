@@ -38,24 +38,21 @@ body {
 /*/ 
 /*  Custom Theme Styles 
 /*/
+.title {
+	font-size: 8.75em;
+	color: #eeedf4;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 33%;
+	font-family: pragmatica, sans-serif;
+	font-weight: 900;
+}
 a:visited {
   text-decoration: none;
 }
-
 a:hover {
   color: #bcbbc1;
 }
-
-.title {
-  font-size: 8.75em;
-  color: #eeedf4;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 33%;
-  font-family: pragmatica, sans-serif;
-  font-weight: 900;
-}
-
 .navbar {
 	background-color: #94090D;
 }
