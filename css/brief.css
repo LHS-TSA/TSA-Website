@@ -7,17 +7,17 @@
 }
 #content {
   min-height: 100vh;
-  text-align: right;
 }
-  
-.title {
-  font-size: 8.75em;
-  color: #eeedf4;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 33%;
-  font-family: pragmatica, sans-serif;
-  font-weight: 900;
+#robo-content>h2{
+  text-align: center;
+}
+#robo-content>ul {
+  text-align: left;
+  list-style: none;
+}
+#robo-content>p {
+  text-align: center;
+  font-size: 1.25rem
 }
 
 
