@@ -69,6 +69,6 @@ $(document).ready(function() {
     generateCards(members[j], "#member-card");
   }
   for (var k = 0; k < posts.length; k++) {
-    generatePosts(posts[k], "#posts");
+    generatePosts(posts[k], "#posts-card");
   }
 });
