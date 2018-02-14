@@ -1,4 +1,6 @@
-/* CSS Document */
+/*/
+/*  CSS Document 
+/*/
 body {
 	background-color: #edecf4;
 	font-family: Roboto;
@@ -14,7 +16,9 @@ body {
 }
 
 
-/* Parallax Styling */
+/*/ 
+/*  Parallax Styling 
+/*/
 .tsa-intro {
 	min-height: 100vh;
 	padding-bottom: 2.5vh;
@@ -31,7 +35,9 @@ body {
 }
 
 
-/* Custom Theme Styles */
+/*/ 
+/*  Custom Theme Styles 
+/*/
 a:visited {
   text-decoration: none;
 }
@@ -58,18 +64,14 @@ a:hover {
   font-size: 1.75em;
 }
 
-
-/* Footer Stylinings */
+/*/
+/*  Footer Designs
+/*/
 #footer {
   min-height: 35vh;
   background-color: #002171;
   color: #eeedf4;
 }
-
-
-/*/
-/*--Footer Designs--
-/*/
 #resources>a {
   color: eeedf4;
   text-decoration: none;
