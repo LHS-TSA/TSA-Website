@@ -1,18 +1,13 @@
 /*/
 /*  Design Brief Styles
 /*/
-
+.navbar {
+  background-color: #28b5f4;
+  color: #000000;
+}
 #content {
   min-height: 100vh;
   text-align: right;
-}
-
-a:visited {
-  text-decoration: none;
-}
-  
-a:hover {
-  color: #bcbbc1;
 }
   
 .title {
@@ -25,15 +20,22 @@ a:hover {
   font-weight: 900;
 }
 
-.navbar {
-    background-color: #28b5f4;
-    color: #000000;
-}
 
+/*/
+/*  Footer Styles
+/*/
 #footer {
   background-color: #0085c1;
 }
-
-.about {
-  padding-right: 10vw;
+/* Footer list */
+.footer-list{
+	list-style: none;
+	text-indent: 0%;
+}
+.footer-link {
+	color: #edecf4;
+	text-decoration: none;
+}
+.footer-link:hover {
+	color: #28b5f4;
 }
