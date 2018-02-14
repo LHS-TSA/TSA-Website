@@ -59,11 +59,14 @@ a:hover {
 .navbar {
 	background-color: #94090D;
 }
-
-#about>div>p {
-  font-size: 1.75em;
+p {
+	font-size: 1.75em;
+	text-indent: 1.75rem;
 }
-
+p.card-text {
+	font-size: 1rem;
+	text-indent: 1rem;
+}
 
 /*/
 /*  Footer Designs
