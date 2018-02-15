@@ -1,0 +1,41 @@
+/*/
+/*  Design Brief Styles
+/*/
+.navbar {
+  background-color: #28b5f4;
+  color: #000000;
+}
+#content {
+  min-height: 100vh;
+}
+#robo-content>h2{
+  text-align: center;
+}
+#robo-content>ul {
+  text-align: left;
+  list-style: none;
+}
+#robo-content>p {
+  text-align: center;
+  font-size: 1.25rem
+}
+
+
+/*/
+/*  Footer Styles
+/*/
+#footer {
+  background-color: #0085c1;
+}
+/* Footer list */
+.footer-list{
+	list-style: none;
+	text-indent: 0%;
+}
+.footer-link {
+	color: #edecf4;
+	text-decoration: none;
+}
+.footer-link:hover {
+	color: #28b5f4;
+}

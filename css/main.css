@@ -1,4 +1,6 @@
-/* CSS Document */
+/*/
+/*  CSS Document 
+/*/
 body {
 	background-color: #edecf4;
 	font-family: Roboto;
@@ -14,7 +16,9 @@ body {
 }
 
 
-/* Parallax Styling */
+/*/ 
+/*  Parallax Styling 
+/*/
 .tsa-intro {
 	min-height: 100vh;
 	padding-bottom: 2.5vh;
@@ -31,57 +35,61 @@ body {
 }
 
 
-/* Custom Theme Styles */
-a:visited {
-	text-decoration: none;
-}
-
+/*/ 
+/*  Custom Theme Styles 
+/*/
 .title {
-  font-size: 8.75em;
-  color: #eeedf4;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 33%;
-  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 700;
+	font-size: 8.75em;
+	color: #eeedf4;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 33%;
+	font-family: pragmatica, sans-serif;
+	font-weight: 900;
 }
-
+a:visited {
+  text-decoration: none;
+}
 a:hover {
   color: #bcbbc1;
 }
-
 .navbar {
 	background-color: #94090D;
 }
-
-#about>div>p {
-  font-size: 1.75em;
+p {
+	font-size: 1.75em;
+	text-indent: 1.75rem;
+}
+p.card-text {
+	font-size: 1rem;
+	text-indent: 1rem;
+}
+#posts-card.card-columns {
+	column-count: 2;
 }
 
-
-/* Footer Stylinings */
+/*/
+/*  Footer Designs
+/*/
 #footer {
-  min-height: 35vh;
+	padding: 0 13% 0 13%;
+  min-height: 15vh;
   background-color: #002171;
   color: #eeedf4;
 }
-
-/*/
-/*--Footer Designs--
-/*/
-#resources>a {
-  color: eeedf4;
-  text-decoration: none;
+#resources {
+	color: eeedf4;
+	text-decoration: none;
+	text-align: right;
+	font-size: 75%;
 }
 #resources>h4 {
-	text-align: center;
+	font-weight: 100;
 }
 /* Footer list */
 .footer-list{
-	text-align: center;
 	list-style: none;
 	text-indent: 0%;
-	padding-left: 0;
 }
 .footer-link {
 	color: #edecf4;
@@ -89,5 +97,4 @@ a:hover {
 }
 .footer-link:hover {
 	color: #94090D;
-	text-decoration: none;
 }
