@@ -43,16 +43,15 @@ function generateCards(group, place) {
 
 function generatePosts(source, place) {
   var template =
-    '<div class="col-md-6 col-sm-10 my-3">' +
     '<div class="card">' +
     '<img class="card-img-top" src="">' +
-    '<div class="card-body p-3">' +
+    '<div class="card-body">' +
     '<h4 class="card-title"></h4>' +
     '<h5 class="card-subtitle"></h5>' +
-    '<p class="card-text my-1"></p>' +
-    "</div>" +
-    "</div>" +
-    "</div>";
+    '<p class="card-text"></p>' +
+    '</div>' +
+    '</div>';
+
   var master = $(template);
   master.find(".card-img-top").attr("src", "img/" + source.img);
   master.find(".card-title").text(source.title);

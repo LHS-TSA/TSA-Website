@@ -64,6 +64,9 @@ p.card-text {
 	font-size: 1rem;
 	text-indent: 1rem;
 }
+#posts-card.card-columns {
+	column-count: 2;
+}
 
 /*/
 /*  Footer Designs
