@@ -105,14 +105,17 @@ ul {
   min-height: 15vh;
   background-color: #002171;
   color: #eeedf4;
-}
-#resources {
-	color: eeedf4;
 	text-decoration: none;
 	text-align: right;
 	font-size: 75%;
 }
-#resources>h4 {
+tsa-links {
+	text-align: center;
+}
+#address>br {
+	line-height: inherit;
+}
+h4 {
 	font-weight: 100;
 }
 /* Footer list */
