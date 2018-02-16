@@ -3,10 +3,12 @@
 - [ ] Add code for changing the column count responsive to browser size for card-columns
 - [ ] Actually make a readme.md
 - [ ] ~~Maybe fix up the repo so it actually looks nice~~
-- [ ] Add contact info, advisor name, address, and advisor email to footer
+- [X] Add contact info, advisor name, address, and advisor email to footer
 - [X] Maybe add history of TSA to the main page
 - [X] Add more content
 - [ ] Reread the prompt and make sure I answered everything correct
 - [X] Decrease P size in brief.html
 - [ ] Make a Leap resume
 - [X] Add photos for TSA officers
+- [ ] Style h3 for tsa history page
+- [ ] Fix bullet for design brief
