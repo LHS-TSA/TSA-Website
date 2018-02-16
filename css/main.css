@@ -20,6 +20,7 @@ body {
 }
 br {
 	line-height: 8vh;
+	margin-top: -8vh;
 }
 
 /*/ 
@@ -70,8 +71,30 @@ p.card-text {
 	font-size: 1rem;
 	text-indent: 1rem;
 }
+.p-smaller {
+	font-size: 1.25em;
+}
+.p-smaller>br {
+	line-height: 10vh;
+}
 #posts-card.card-columns {
 	column-count: 2;
+}
+h2 {
+	text-align: center;
+}
+.link-list {
+	column-count: 2;
+	list-style: none;
+}
+.link-list>li {
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+.p-tiny {
+	font-size: 1em;
 }
 
 /*/
