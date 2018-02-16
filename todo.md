@@ -9,4 +9,4 @@
 - [ ] Reread the prompt and make sure I answered everything correct
 - [X] Decrease P size in brief.html
 - [ ] Make a Leap resume
-- [ ] Add photos for TSA officers
+- [X] Add photos for TSA officers

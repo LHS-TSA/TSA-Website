@@ -83,6 +83,11 @@ var members = [
     name: "Bayden Woody",
     projects: null,
     quote: "H"
+  },
+  {
+    name: "Amia Driver",
+    projects: "Structural",
+    quote: "Um nope."
   }
 ];
 
@@ -92,27 +97,27 @@ var officers = [
     position: "President",
     projects: "Flight endurance, Structural design, Video game design",
     quote: "If life gives you lemons make life take the lemons back.",
-    img: "blank_img.svg"
+    img: "smith.jpg"
   },
   {
     name: "Debora Park",
     position: "Secretary",
     projects: "Music Production, Flight Endurance",
     quote: "I'm blind.",
-    img: "blank_img.svg"
+    img: "park.jpg"
   },
   {
     name: "Devon Loy",
     position: "Vice President",
     projects: "Dragster Design, Video Game Design, Debate",
     quote: "For every fixed syntax error, there are always ten more.",
-    img: "blank_img.svg"
+    img: "loy.jpg"
   },
   {
     name: "Stephen DuVall",
     position: "Reporter",
     projects: "Webmaster, Software Dev, VEX Robotics",
     quote: "I probably didn't turn it in",
-    img: "blank_img.svg"
+    img: "duvall.jpeg"
   }
 ];
