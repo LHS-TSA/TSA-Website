@@ -7,6 +7,6 @@
 - [X] Maybe add history of TSA to the main page
 - [X] Add more content
 - [ ] Reread the prompt and make sure I answered everything correct
-- [ ] Decrease P size in brief.html
+- [X] Decrease P size in brief.html
 - [ ] Make a Leap resume
 - [ ] Add photos for TSA officers
