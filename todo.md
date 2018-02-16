@@ -2,7 +2,7 @@
 - [X] Fix the font for `lhstsa`
 - [ ] Add code for changing the column count responsive to browser size for card-columns
 - [ ] Actually make a readme.md
-- [ ] Maybe fix up the repo so it actually looks nice
+- [ ] ~~Maybe fix up the repo so it actually looks nice~~
 - [ ] Add contact info, advisor name, address, and advisor email to footer
 - [X] Maybe add history of TSA to the main page
 - [X] Add more content
