@@ -5,19 +5,39 @@
   background-color: #28b5f4;
   color: #000000;
 }
+.title{
+  text-align: center;
+  font-size: 8.75em;
+  color: #0086c3;
+  font-family: pragmatica;
+  font-weight: 900;
+  line-height: inherit;
+}
+h2 {
+  text-align: center;
+  font-size: 4.25em;
+  font-family: pragmatica;
+}
+#intro-list>span.fa-li{
+  padding: 10px 0 0 30px;
+}
 #content {
   min-height: 100vh;
 }
-#robo-content>h2{
-  text-align: center;
-}
 #robo-content>ul {
   text-align: left;
-  list-style: none;
+  padding: 0 0 0 8vw;
 }
 #robo-content>p {
   text-align: center;
   font-size: 1.25rem
+}
+#credit {
+  text-align: right;
+  font-size: .25em;
+}
+button {
+  margin: 2vh 0 0 0;
 }
 
 
