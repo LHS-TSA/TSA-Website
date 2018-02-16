@@ -24,13 +24,16 @@ h2 {
 #content {
   min-height: 100vh;
 }
+p {
+  font-size: 1.25em;
+}
 #robo-content>ul {
   text-align: left;
   padding: 0 0 0 8vw;
 }
 #robo-content>p {
   text-align: center;
-  font-size: 1.25rem
+  font-size: 1.25em
 }
 #credit {
   text-align: right;

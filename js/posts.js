@@ -10,14 +10,14 @@ var posts = [
     {
       title: "Walnut Grove VEX Tournament",
       img: "IMG_1962.jpg",
-      body: "Weston, Stephen, Jeremy, John, Athini, Kevin, and Brett competed with two robots down the streat at Walnut Grove High School",
+      body: "Weston, Stephen, Jeremy, John, Athini, Kevin, and Brett competed with two robots down the street at Walnut Grove High School.",
       date: "Feb. 5, 2018",
       source: "stphn"
     },
     {
       title: "West Forsyth HS VEX Tournament",
       img: "IMG_0250.jpg",
-      body: "This weekend Weston, Stephen, Jeremy, and Athini competed at a robotics competition placing 8th overall making it to the first round of quarter finals",
+      body: "This weekend Weston, Stephen, Jeremy, and Athini competed at a robotics competition placing 8th overall making it to the first round of quarter finals.",
       date: "Nov. 11, 2017",
       source: "stphn"
     },
