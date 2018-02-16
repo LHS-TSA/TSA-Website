@@ -14,7 +14,13 @@ body {
 	height: 7vh;
 	min-height: 60px;
 }
-
+.divider-mini {
+	height: 7vh / 2;
+	min-height: 30px;
+}
+br {
+	line-height: 8vh;
+}
 
 /*/ 
 /*  Parallax Styling 
