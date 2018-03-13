@@ -1,13 +1,13 @@
 /*/
-/*  CSS Document 
+/*  CSS Document
 /*/
 body {
 	background-color: #edecf4;
 	font-family: Roboto;
 }
 
-::-webkit-scrollbar { 
-	display: none; 
+::-webkit-scrollbar {
+	display: none;
 }
 
 .divider {
@@ -23,8 +23,8 @@ br {
 	margin-top: -8vh;
 }
 
-/*/ 
-/*  Parallax Styling 
+/*/
+/*  Parallax Styling
 /*/
 .tsa-intro {
 	min-height: 100vh;
@@ -42,8 +42,8 @@ br {
 }
 
 
-/*/ 
-/*  Custom Theme Styles 
+/*/
+/*  Custom Theme Styles
 /*/
 .title {
 	font-size: 8.75em;
@@ -129,4 +129,9 @@ h4 {
 }
 .footer-link:hover {
 	color: #94090D;
+}
+.ndc {
+	text-align: center;
+	font-size: 75%;
+	color: white;
 }
